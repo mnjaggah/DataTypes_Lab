@@ -4,7 +4,7 @@ def data_type(n):
   elif isinstance(n, bool):
     return n
   elif n is None:
-    return 'no value'
+   # return 'no value'
   elif isinstance(n, int):
     if n < 100:
       return 'less than 100'
